@@ -1,5 +1,5 @@
 # abstract
-here are all the sunvox modules i've made. they are sorted based on sunvox's own module library. this readme file also contains documentation and notes for each module
+here are all the sunvox modules i've made. they are sorted based on sunvox's own module library. this commit will also soon contain documentation and notes for each module
 
 to get the modules, simply clone this repo, move the archive to sunvox's root directory, and tell your file manager to merge the directories
 
