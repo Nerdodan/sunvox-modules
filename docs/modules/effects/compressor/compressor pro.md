@@ -8,7 +8,7 @@ the functionality of this module is built into my bus pro module
 
 # controllers
 
-## group 1: input gain
+## group 1: pre-processing controls
 
 - input gain: the input gain of the signal. 256 (2000) = 0db
 
@@ -28,6 +28,6 @@ the functionality of this module is built into my bus pro module
 - gate: enables gate mode. in this mode, the compressor operates as a gate, inverting the compressed signal and summing it with the dry signal
 - rms: enables rms mode. in this mode, the compressor uses rms (root mean square) detection
 
-## group 4: post
+## group 4: post-processing controls
 
 - mix: the dry/wet ratio. note that 8192 (2000) = 50% wet, 100% dry and vice versa
