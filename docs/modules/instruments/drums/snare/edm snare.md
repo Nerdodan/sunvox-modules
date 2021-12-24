@@ -10,7 +10,7 @@ the compression is based on my compressor pro module. note that the slope is fix
 
 # controllers
 
-##group 1: punch (body) settings
+## group 1: punch (body) settings
 
 - punch base note: the base frequency of the body in semitones. 0 (80) = c5
 - punch attack: the attack of the body. you'll want to have this at around 50-70 to make room for the transient
