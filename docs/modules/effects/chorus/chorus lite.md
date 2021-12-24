@@ -1,12 +1,12 @@
 # abstract
 
-a simple chorus effect that is lighter in processing load than the regular chorus effect
+a simple stereo chorus effect that is lighter in processing load than the regular chorus effect
 
-uses a parallel vibrato module on each channel
+it works by using a parallel vibrato module on each channel
 
 # controllers
 
-## group 1: dry/wet settings
+## group 1: mix controls
 
 - dry: the gain of the dry signal. 128 (1000) = -6db
 - wet: the gain of the wet signal. 128 (1000) = -6db
@@ -16,7 +16,7 @@ uses a parallel vibrato module on each channel
 - depth: the depth of the chorus effect
 - rate: the rate of the chorus effect
 
-## group 3: delay
+## group 3: delay controls
 
 - delay l: the delay time on the left channel
 - delay r: the delay time on the right channel
@@ -25,5 +25,5 @@ uses a parallel vibrato module on each channel
 - delay inverse: whether the right channel is inverted
 - delay unit: the unit of the delay
 
-## group 4: post
+## group 4: post-processing controls
 - width: the width of the overall effect. affects only the wet channel
