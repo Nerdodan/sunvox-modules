@@ -6,7 +6,7 @@ it works by using three parallel vibrato modules each set to a multiple of the d
 
 # controllers
 
-## group 1: dw
+## group 1: mix controls
 
 - dry: the gain of the dry signal, 64 (800) = -6db
 - wet: the gain of the wet signal, 128 (1000) = -6db
@@ -16,7 +16,7 @@ it works by using three parallel vibrato modules each set to a multiple of the d
 - depth: the depth of the chorus effect
 - rate: the rate of the chorus effect
 
-## group 3: delay
+## group 3: delay controls
 
 - delay l: the delay time on the left channel
 - delay r: the delay time on the right channel
@@ -25,5 +25,5 @@ it works by using three parallel vibrato modules each set to a multiple of the d
 - delay inverse: whether the right channel is inverted
 - delay unit: the unit of the delay
 
-## group 4: post
+## group 4: post-processing controls
 - width: the width of the overall effect. affects only the wet channel
