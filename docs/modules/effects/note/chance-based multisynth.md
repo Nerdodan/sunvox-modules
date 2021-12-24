@@ -2,8 +2,6 @@
 
 a simple module that allows a note signal to pass through based on a chance and seed
 
-i needed this for a module i'm working on rn, stay tuned
-
 # controllers
 
 ## group 1: settings
