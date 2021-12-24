@@ -30,6 +30,6 @@ the multictl curves were generated using pixilang, i'll see if i can find the or
 - lfo waveform: the waveform of the lfo
 - lfo duty cycle: the pulsewidth (duty cycle) of the pulse wave lfo
 
-##group 5: sound2ctl sample rate settings
+## group 5: sound2ctl sample rate settings
 
 - lfo sample rate: the sample rate of the sound2ctl module in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot
