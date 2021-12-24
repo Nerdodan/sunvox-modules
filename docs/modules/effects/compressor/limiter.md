@@ -2,11 +2,11 @@
 
 a digital peak limiter
 
-uses two limiting stages, with one having lookahead and adjustable attack and release, and the other having only release and zero attack
+uses two limiting stages, with one having lookahead and adjustable attack and release, and the other having only an adjustable release and zero attack
 
 # controllers
 
-## group 1: input gain
+## group 1: pre-processing settings
 
 - input gain: the input gain of the signal in terms of peak value. 256 (2000) = 0db
 
