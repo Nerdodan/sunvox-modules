@@ -8,11 +8,11 @@ useful for anything related to equalization, though a simple set of filter pro m
 
 # controllers
 
-## group 1: preprocessing
+## group 1: preprocessing controls
 
 - input gain: the input gain of the signal. 256 (2000) = 0db
 
-## group 2: band 1
+## group 2: band 1 controls
 
 - 1 type: the filter type of this band
 - 1 freq: the filter frequency of this band in hertz
@@ -20,7 +20,7 @@ useful for anything related to equalization, though a simple set of filter pro m
 - 1 roll-off: the roll-off of this band in db/oct
 - 1 gain: the filter gain of this band. only applies to peak, low shelf, and high shelf filters
 
-## group 3: band 2
+## group 3: band 2 controls
 
 - 2 type: the filter type of this band
 - 2 freq: the filter frequency of this band in hertz
@@ -28,7 +28,7 @@ useful for anything related to equalization, though a simple set of filter pro m
 - 2 roll-off: the roll-off of this band in db/oct
 - 2 gain: the filter gain of this band. only applies to peak, low shelf, and high shelf filters
 
-## group 4: band 3
+## group 4: band 3 controls
 
 - 3 type: the filter type of this band
 - 3 freq: the filter frequency of this band in hertz
@@ -36,7 +36,7 @@ useful for anything related to equalization, though a simple set of filter pro m
 - 3 roll-off: the roll-off of this band in db/oct
 - 3 gain: the filter gain of this band. only applies to peak, low shelf, and high shelf filters
 
-## group 5: band 4
+## group 5: band 4 controls
 
 - 4 type: the filter type of this band
 - 4 freq: the filter frequency of this band in hertz
@@ -44,7 +44,7 @@ useful for anything related to equalization, though a simple set of filter pro m
 - 4 roll-off: the roll-off of this band in db/oct
 - 4 gain: the filter gain of this band. only applies to peak, low shelf, and high shelf filters
 
-## group 6: band 5
+## group 6: band 5 controls
 
 - 5 type: the filter type of this band
 - 5 freq: the filter frequency of this band in hertz
@@ -52,7 +52,7 @@ useful for anything related to equalization, though a simple set of filter pro m
 - 5 roll-off: the roll-off of this band in db/oct
 - 5 gain: the filter gain of this band. only applies to peak, low shelf, and high shelf filters
 
-## group 7: band 6
+## group 7: band 6 controls
 
 - 6 type: the filter type of this band
 - 6 freq: the filter frequency of this band in hertz
