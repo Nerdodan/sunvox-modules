@@ -1,8 +1,8 @@
 # abstract
 
-a simple chorus effect
+a simple stereo chorus effect
 
-uses three parallel vibrato modules each set to a multiple of the depth and rate on each channel
+it works by using three parallel vibrato modules each set to a multiple of the depth and rate on each channel
 
 # controllers
 
