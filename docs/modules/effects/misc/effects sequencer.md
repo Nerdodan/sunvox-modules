@@ -4,14 +4,14 @@ this module allows you to enable various effects using the keyboard keys. the mo
 
 the effects are as follows, starting on note c0:
 
-c0: modulator
-c#0: tape stop
-d0: retrigger (loop)
-d#0: reverse
-e0: stretch
-f0: distortion
-f#0: reverb
-g0: compressor
+- c0: modulator
+- c#0: tape stop
+- d0: retrigger (loop)
+- d#0: reverse
+- e0: stretch
+- f0: distortion
+- f#0: reverb
+- g0: compressor
 
 the effects loop around on note g#0 and so on
 
@@ -49,17 +49,17 @@ note that the modulator, tape stop, retrigger, reverse, and stretch reset when c
 - retrigger repeats: the number of repeats of the retrigger
 - retrigger mode: the mode for the retrigger
 
-## group 4: reverse
+## group 4: reverse settings
 
 - reverse unit: the unit for the reverse lfo. a musical value is probably what you want
 - reverse speed: the speed of the reverse lfo in percentage
 
-## group 5: stretch
+## group 5: stretch settings
 
 - stretch unit: the unit for the stretch lfo. a musical value is probably what you want
 - stretch speed: the speed of the stretch lfo in percentage
 
-## group 6: distortion
+## group 6: distortion settings
 
 - distortion type: the type of distortion
 - distortion power: the power (gain) of the distortion
@@ -67,7 +67,7 @@ note that the modulator, tape stop, retrigger, reverse, and stretch reset when c
 - distortion freq: the sample rate of the distorted signal in hertz
 - distortion noise: the noise of the distorted signal. note that this is not the same as adding white noise, this effect adds a random value to each sample
 
-## group 7: reverb
+## group 7: reverb settings
 
 - reverb wet: the gain of the wet reverb signal. 32768 (8000) = 0db
 - reverb dry: the gain of the dry reverb signal. 32768 (8000) = 0db
@@ -75,7 +75,7 @@ note that the modulator, tape stop, retrigger, reverse, and stretch reset when c
 - reverb damp: the dampening (lowpass filter) of the reverb
 - reverb size: the size of the reverb
 
-## group 8: compressor
+## group 8: compressor settings
 
 - compressor threshold: the threshold of the compressor in terms of the peak value. 128 (2000) = -6db
 - compressor slope: the slope (ratio) of the compressor curve in percentage. 50 (2000) = 1:2
