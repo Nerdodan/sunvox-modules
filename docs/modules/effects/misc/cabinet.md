@@ -4,8 +4,6 @@ this is a guitar cabinet effect
 
 it uses a set of peak filters for the overall shape and the reverb module set to a very low room size for fine details, as well as a room reverb
 
-use it to make your audio sound like it's being sent through a hardware amplifier. this module goes great with my electric guitar and overdrive modules
-
 note that the room reverb is not meant to simulate an amplifier's reverb knob, but rather to simulate the room the amplifier is in
 
 this module uses two mono reverb modules on each channel to negate weird stereo effects
