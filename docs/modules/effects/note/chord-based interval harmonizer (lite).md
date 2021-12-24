@@ -26,7 +26,7 @@ along with simply playing a chord with one note, you could also randomly automat
 - enable upper seventh double: enables the upper octave seventh double
 - enable lower seventh double: enables the lower octave seventh double
 
-## group 3: inversions settings
+## group 3: inversion settings
 
 - 1st inversion: transposes the root + doubles up one octave
 - 2nd inversion: transposes the third + doubles up one octave
