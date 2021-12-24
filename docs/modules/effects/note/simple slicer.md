@@ -19,7 +19,7 @@ use it to chop up your breaks (or anything really). you can also get creative wi
 - slice offset: the offset of the slices, to be quantized
 - slice qualtize: the quantization of the slicer. usually you'll want this to be one more than a multiple of the number of slices
 
-## group 3: output transposition
+## group 3: output transposition settings
 
 - transpose: the transposition of the output in semitones
 - finetune: the finetune of the output in semitone/256
