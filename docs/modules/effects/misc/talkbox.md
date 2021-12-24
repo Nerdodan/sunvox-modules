@@ -30,3 +30,7 @@ this module was inspired by the talkbox guitar effect. here, it is simply a voca
 - random frequency: the amount of randomness applied to the formants' frequencies
 - random seed: the seed for the formant random frequency
 - vowel1, vowel2, etc.: the vowel in the five-vowel sequence
+
+## group 5: sound2ctl sample rate settings
+
+- lfo sample rate: the sample rate of the sound2ctl module in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

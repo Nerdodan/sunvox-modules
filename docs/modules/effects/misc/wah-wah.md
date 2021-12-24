@@ -36,3 +36,7 @@ a wah-wah effect. the effect can be controlled in three ways: auto (following th
 - filter bandwidth: the resonance (bandwidth) of the filter
 - filter roll-off: the roll-off of the filter in db/oct
 - filter gain: the gain of the filter from -24db to +24db
+
+## group 6: sound2ctl sample rate settings
+
+- auto/lfo sample rate: the sample rate of the sound2ctl modules in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

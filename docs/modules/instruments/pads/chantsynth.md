@@ -37,3 +37,7 @@ also comes with a built-in hall reverb unit
 - hall reverb mode: the mode of the reverb
 - hall reverb size: the size of the reverb
 - hall reverb seed: the random seed for the reverb
+
+## group 4: sound2ctl sample rate settings
+
+- sample rate: the sample rate of the sound2ctl modules in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

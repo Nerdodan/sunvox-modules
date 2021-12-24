@@ -21,3 +21,7 @@ the saturation is based on my saturator module's hard odd curve, which was gener
 ## group 3: saturation controls
 
 - sat input volume: the input gain to the saturator. note that 0 = silence
+
+## group 4: sound2ctl sample rate settings
+
+- envelope sample rate: the sample rate of the sound2ctl module in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

@@ -49,3 +49,7 @@ it can produce analog style crashes, rides, hihats, and more
 - mod 3 coarse: the coarse pitch of modulator 3 in semitones. 0 (80) = c5
 - mod 3 fine: the fine pitch of modulator 3 in semitones/256
 - mod 3 amp: the amplitude of modulator 3 in terms of the peak level. 16384 (4000) = -6db
+
+## group 4: sound2ctl sample rate settings
+
+- fm sample rate: the sample rate of the sound2ctl modules in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

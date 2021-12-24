@@ -53,3 +53,7 @@ great as percussion for music genres like idm and glitch
 
 - amp absolute: whether to take the absolute value of the amplitude modulation oscillator
 - freq absolute: whether to take the absolute value of the frequency modulation oscillator
+
+## group 8: sound2ctl sample rate settings
+
+- envelope sample rate: the sample rate of the sound2ctl module in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

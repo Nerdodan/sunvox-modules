@@ -65,3 +65,7 @@ note than when the input module is set to 1, the module will generate its sound 
 - reverb size: the width of the reverb. 0 is mono
 - reverb size: the size of the reverb
 - reverb seed: the random seed for the reverb
+
+## group 4: sound2ctl sample rate settings
+
+- fm sample rate: the sample rate of the sound2ctl modules in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

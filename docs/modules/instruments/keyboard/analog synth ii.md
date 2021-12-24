@@ -72,3 +72,7 @@ note that the waveforms are controlled by a multictl, so the individual waveform
 - chorus wet: the amount (wet) of the chorus effect. 16384 (4000) = -6db
 - chorus mix: the mixture between choruses 1 and 2
 - stereo width: the width of the chorus output
+
+## group 6: sound2ctl sample rate settings
+
+- sample rate: the sample rate of the sound2ctl modules in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

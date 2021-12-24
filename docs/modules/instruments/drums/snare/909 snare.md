@@ -20,3 +20,7 @@ for an updated and more generalized version of this module, please see my analog
 - tail phase: the phase (playback position) of the sampled noise
 - body release: the release time of the tail
 - body volume: the volume of the tail in terms of the peak level. 128 = -6db
+
+## group 3: sound2ctl sample rate settings
+
+- pitch env sample rate: the sample rate of the sound2ctl module in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

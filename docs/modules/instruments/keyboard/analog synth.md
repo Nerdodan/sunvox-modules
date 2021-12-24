@@ -62,4 +62,7 @@ though this was succeeded my analog synth ii module, it is not obsolete; they co
 - reverb wet: the amount (wet) of the reverb. 128 (4000) = -6db
 - reverb size: the size of the reverb
 
+## group 9: sound2ctl sample rate settings
+
+- filter env sample rate: the sample rate of the sound2ctl module in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot
  

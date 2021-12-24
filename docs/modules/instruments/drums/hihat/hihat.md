@@ -49,3 +49,7 @@ be sure to modulate the release controller when playing this for more realistic 
 - comp slope: the slope (ratio) of the compressor curve in percentage. 50 (2000) = 1:2
 - comp release: the release of the compressor in milliseconds
 - comp makeup: the makeup gain of the compressor in terms of the peak value. 32768 (8000) = +32db
+
+## group 8: sound2ctl sample rate settings
+
+- open/close envelope sample rate: the sample rate of the sound2ctl module in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

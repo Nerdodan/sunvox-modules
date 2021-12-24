@@ -74,3 +74,7 @@ the compression is based on my compressor pro module. note that the slope is fix
 ## group 6: mix settings
 
 - mix: the mix of the kick drum and distorted kick drum. note that 8192 (2000) = 100% dry, 50% wet and vice versa
+
+## group 7: sound2ctl sample rate settings
+
+- kick pitch quality: the sample rate of the sound2ctl module in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

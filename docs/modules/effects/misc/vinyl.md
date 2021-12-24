@@ -35,3 +35,7 @@ use it to make your audio sound like it's being played on a ~~toxic fume emittin
 
 - warp amount: the amount of warping on the record
 - warp mode: the waveform of the warping
+
+## group 7: sound2ctl sample rate settings
+
+- envelope follower sample rate: the sample rate of the sound2ctl modules in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

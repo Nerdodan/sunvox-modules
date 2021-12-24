@@ -49,3 +49,7 @@ as of 2.0, this module uses fifo-based voice allocation
 - sustain mode: enables sustain for the string envelopes
 - sustain amount: the sustain level for the string envelopes
 
+## group 6: sound2ctl sample rate settings
+
+- envelope sample rate: the sample rate of the sound2ctl modules in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot
+

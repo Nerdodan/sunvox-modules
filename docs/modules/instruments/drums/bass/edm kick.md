@@ -55,4 +55,4 @@ the compression is based on my compressor pro module. note that the slope is fix
 
 ## group 7: quality settings
 
-- pitch quality: the sample rate of the pitch envelope. higher values give more granularity at the cost of processing power
+- pitch quality: the sample rate of the pitch envelope. higher values give more granularity at the cost of processing power. according to nightradio, 150 hz is the sweet spot

@@ -36,3 +36,7 @@ no, i did not rip off logickin's module, that module has keytracking while this 
 ## group 4: envelope settings
 
 - envelope smoothing: the type of smoothing to apply to the envelope
+
+##group 5: sound2ctl sample rate settings
+
+- pitch quality: the sample rate of the sound2ctl module in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

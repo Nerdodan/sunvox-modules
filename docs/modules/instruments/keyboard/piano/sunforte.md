@@ -42,3 +42,7 @@ the module was called "sunforte" in reference to the piano's original name, the 
 
 - highs gain: the gain of the high shelf filter. set to 4006 hertz
 - lows cut: the frequency of the 12db highpass filter in hertz
+
+## group 6: sound2ctl sample rate settings
+
+- filter envelope sample rate: the sample rate of the sound2ctl modules in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot

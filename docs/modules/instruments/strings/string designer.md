@@ -16,6 +16,8 @@ this module can create contrabass, cello, viola, and violin sounds, as well as s
 
 be sure to automate the parameters for more realistic articulation :>
 
+note that this is not meant to simulate multiple string instruments, but rather the four strings of a single string instrument
+
 as of 2.0, this module uses fifo-based voice allocation
 
 # controllers
@@ -59,3 +61,7 @@ as of 2.0, this module uses fifo-based voice allocation
 
 - string seed: the random seed for the string resonator
 - body seed: the random seed for the body resonator
+
+## group 8: sound2ctl sample rate settings
+
+- sample rate: the sample rate of the sound2ctl modules in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot
