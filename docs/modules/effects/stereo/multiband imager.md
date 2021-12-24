@@ -2,9 +2,11 @@
 
 a multiband module for stereo imaging
 
+uses inversion-based band splits to negate phase coloration
+
 # controllers
 
-## group 1: band split
+## group 1: band split settings
 
 - band 1/2 split: the split frequency of bands 1 and 2 in hertz
 - band 2/3 split: the split frequency of bands 2 and 3 in hertz
