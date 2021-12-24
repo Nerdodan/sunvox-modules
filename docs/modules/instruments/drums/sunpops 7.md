@@ -8,16 +8,16 @@ here, the buttons are notes, with the leftmost button being c0 and the last butt
 
 the patterns are as follows:
 
-c0: waltz/jazz waltz
-c#0: samba/conga
-d0: mambo/cha-cha
-d#0: rumba/beguine
-e0: tango/habanera
-f0: bossanova/slow rock
-f#0: rock 1/rock 2
-g0: rock 3/rock 4
-g#0: march 2/4/march 6/8
-a0: swing/latin swing
+- c0: waltz/jazz waltz
+- c#0: samba/conga
+- d0: mambo/cha-cha
+- d#0: rumba/beguine
+- e0: tango/habanera
+- f0: bossanova/slow rock
+- f#0: rock 1/rock 2
+- g0: rock 3/rock 4
+- g#0: march 2/4/march 6/8
+- a0: swing/latin swing
 
 i did a lot of research and tried to replicate the original machine's behavior, and i'd say everything mostly works well except for layering the waltz with the other patterns. but, that's relatively minor.
 
