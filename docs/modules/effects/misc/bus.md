@@ -6,7 +6,7 @@ for more functionality, including saturation and compression, please see my bus 
 
 # controllers
 
-## group 1: main processing
+## group 1: main processing controls
 
 - volume: the volume of the signal in terms of the peak level. 16384 (4000) = -6db
 - balance: the stereo balance of the signal
