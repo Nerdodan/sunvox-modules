@@ -22,4 +22,4 @@ use it to chop up your breaks (or anything really). you can also get creative wi
 ## group 3: output transposition settings
 
 - transpose: the transposition of the output in semitones
-- finetune: the finetune of the output in semitone/256
+- finetune: the finetune of the output in semitones/256
