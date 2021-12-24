@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 a version of the analog generator with up to eight voices of unison with detune, blend, random phase, and stereo spread, as well as sixteen voices of polyphony
 
@@ -28,9 +28,9 @@ note that the waveforms are controlled by a multictl, so the individual waveform
 - 30720 (7800): grey noise
 - 32768 (8000): harmonics
 
-#controllers
+# controllers
 
-##group 1: unison settings
+## group 1: unison settings
 
 - voices: the number of unison voices. ranges from one to eight
 - detune: the detune of the voices. maximum detune means the outermost voices are detuned by one semitone
@@ -38,22 +38,22 @@ note that the waveforms are controlled by a multictl, so the individual waveform
 - blend: the volume of the non-center voices
 - stereo spread: the stereo spread of the voices. minimum spread means the voices are all mono, and maximum spread means the outermost voices are hard panned left and right
 
-##group 2: waveform settings
+## group 2: waveform settings
 
 - waveform: the waveform oscillator
 
-##group 3: amp envelope settings
+## group 3: amp envelope settings
 
 - attack: the attack of the amp envelope
 - release: the release of the amp envelope
 - sustain: enables the amp envelope sustain
 
-##group 4: oscillator settings
+## group 4: oscillator settings
 
 - duty cycle: the pulsewidth (duty cycle) of the pulse waveform
 - osc2 freq: the pitch of the second oscillator relative to the input pitch in semitones/1048.576. 0 means the second oscillator is disabled
 
-##group 5: filter settings
+## group 5: filter settings
 
 - lp: enables the lowpass filter
 - lp cutoff: the exponential cutoff of the lowpass filter
@@ -65,12 +65,12 @@ note that the waveforms are controlled by a multictl, so the individual waveform
 - lp envelope: enables the lowpass filter envelope
 - hp cutoff: the cutoff of the 12db highpass filter in hertz
 
-##group 6: additional settings
+## group 6: additional settings
 
 - noise: the volume of the voice white noise in terms of the peak level. 16384 (4000) = -6db
 - stereo width: the stereo width of the output
 
-##group 7: osc2 settings
+## group 7: osc2 settings
 
 - osc2 volume: the volume of the voice second oscillator in terms of the peak level. 16384 (4000) = -6db
 - osc2 mode: the mix mode of the voice second oscillator. these are the same as the analog generator, and are as follows, in decimal and hexadecimal:

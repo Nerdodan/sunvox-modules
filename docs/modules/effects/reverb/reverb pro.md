@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 an extended version of the reverb module
 
@@ -6,19 +6,19 @@ great for making wide, morphing soundscapes or just regular reverb with some add
 
 #controllers
 
-##group 1: dry/wet settings
+## group 1: dry/wet settings
 
 - dry: the gain of the dry signal, 128 (1000) = -6db
 - wet: the gain of the wet signal, 128 (1000) = -6db
 
-##group 2: predelay settings
+## group 2: predelay settings
 
 - predelay l: the delay on the left channel in milliseconds
 - predelay r: the delay on the righ channel in milliseconds
 - volume l: the volume of the left channel. 128 (4000) = -6db
 - volume r: the volume of the right channel. 128 (4000) = -6db
 
-##group 3: filter settings
+## group 3: filter settings
 
 - hp freq: the frequency of the highpass filter in hertz
 - hp q: the resonance of the highpass filter
@@ -27,7 +27,7 @@ great for making wide, morphing soundscapes or just regular reverb with some add
 - lp q: the resonance of the lowpass filter
 - lp roll-off: the roll-off of the lowpass filter in db/oct
 
-##group 4: reverb settings
+## group 4: reverb settings
 
 - reverb feedback: the feedback of the reverb
 - reverb damp: the dampening (lowpass filter) of the reverb
@@ -36,14 +36,14 @@ great for making wide, morphing soundscapes or just regular reverb with some add
 - reverb size: the size of the reverb
 - reverb seed: the random seed for the reverb
 
-##group 5: pitch shifter settings
+## group 5: pitch shifter settings
 
 - shifter volume: the volume of the parallel pitch shifter. 128 (4000) = 0db
 - shifter pitch: the pitch shift in semitones/10
 - shifter feedback: the feedback of the pitch shifter
 - shifter size: the grain size of the pitch shifter
 
-##group 6: lfo settings
+## group 6: lfo settings
 
 - lfo type: the type of modulation to apply
 - lfo amp: the amplitude of the lfo

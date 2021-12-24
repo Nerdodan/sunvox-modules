@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 a module simulating the sound of an electric guitar/bass
 
@@ -16,9 +16,9 @@ the sound works well by itself, though you can also send it to my cabinet or ove
 
 as of 2.0, this module uses fifo-based voice allocation
 
-#controllers
+# controllers
 
-##group 1: physical parameters
+## group 1: physical parameters
 
 - string seed: the random seed for the string resonator
 - pick position: the base pulsewidth of the oscillator, simulating the picking position
@@ -26,23 +26,23 @@ as of 2.0, this module uses fifo-based voice allocation
 - pickup position: the comb filter frequency, simulating the pickup position. this only simulates a single pickup
 - body seed: the random seed for the body resonator
 
-##group 2: squeak parameters
+## group 2: squeak parameters
 
 - squeak: the squeak trigger and length. the squeak is not triggered by a note, but rather by automating this paramater. higher values make the squeak longer
 - squeak volume: the volume in terms of the peak level and filter frequency of the squeak. 16384 (4000) = -6db
 - squeak seed: the random seed of the squeak resonator
 
-##group 3: hum parameters
+## group 3: hum parameters
 
 - hum volume: the volume of the hum in terms of the peak level. 16384 (4000) = -6db
 
-##group 4: tone control
+## group 4: tone control
 
 - bass tone: the gain of the bass peak. set to 70 hertz
 - mid tone: the gain of the mid peak. set to 503 hertz
 - treble tone: the gain of the treble peak. set to 6308 hertz
 
-##group 5: playing parameters
+## group 5: playing parameters
 
 - mute amount: the amount of palm muting
 - pinch amount: the amount of pinch harmonics

@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 a module simulating the sound of an acoustic string instument, either bowed (arco) or plucked (pizzicato). forked from philip bergwerf's module of the same name
 
@@ -18,17 +18,17 @@ be sure to automate the parameters for more realistic articulation :>
 
 as of 2.0, this module uses fifo-based voice allocation
 
-#controllers
+# controllers
 
-##group 1: sound selection
+## group 1: sound selection
 
 - arco/pizzicato: selects between arco and pizzicato playing
 
-##group 2: arco main settings
+## group 2: arco main settings
 
 - arco portamento amount: the amount of portamento in arco playing
 
-##group 3: arco amplitude envelope settings
+## group 3: arco amplitude envelope settings
 
 - arco amp attack: the attack of the arco amplitude envelope
 - arco amp decay: the decay of the arco amplitude envelope
@@ -36,26 +36,26 @@ as of 2.0, this module uses fifo-based voice allocation
 - arco amp sustain level: the sustain level of the arco amplitude envelope
 - arco amp release: the release of the arco amplitude envelope
 
-##group 4: arco vibrato settings
+## group 4: arco vibrato settings
 
 - arco vibrato amount: the amount of the arco vibrato
 - arco vibrato speed: the speed of the arco vibrato
 - arco vibrato attack: the attack of the arco vibrato envelope
 - arco vibrato release: the release of the arco vibrato envelope
 
-##group 5: arco tremolo settings
+## group 5: arco tremolo settings
 
 - arco tremolo amount: the amount of the arco tremolo
 - arco tremolo speed: the speed of the arco tremolo
 - arco tremolo attack: the attack of the arco tremolo envelope
 - arco tremolo release: the release of the arco tremolo envelope
 
-##group 6: arco additonal settings
+## group 6: arco additonal settings
 
 - arco random vibrato amount: the amount of arco random vibrato. a little bit makes the sound much more realistic
 - arco surface noise: the amount of arco surface noise. although any string player can tell you surface noise is undesirable in most cases, i included it anyway because i wanted to simulate avant-garde playing
 
-##group 7: physical settings
+## group 7: physical settings
 
 - string seed: the random seed for the string resonator
 - body seed: the random seed for the body resonator

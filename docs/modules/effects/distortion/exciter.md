@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 a clone of the exciter effect from the calf plugin suite
 
@@ -10,14 +10,14 @@ unlike the original effect, this module uses inversion-based splitting to negate
 
 the waveshaper curves were generated using pixilang, i'll see if i can find the original file
 
-#controllers
+# controllers
 
-##group 1: split controls
+## group 1: split controls
 
 - scope: the frequency of the band 1/2 split in hertz
 - ceiling: the frequency of the band 2/3 split in hertz
 
-##group 2: saturator controls
+## group 2: saturator controls
 
 - input gain: the input gain of the signal in terms of the peak value. 256 (2000) = 0db
 - odd/even harmonics: the mix of the symmetrical/asymmetrical saturators

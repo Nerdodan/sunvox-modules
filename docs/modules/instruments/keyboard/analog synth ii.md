@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 an 8-voice polyphonic analog-style synthesizer module inspired by the roland juno 6, oberheim ob-x, and others
 
@@ -29,9 +29,9 @@ note that the waveforms are controlled by a multictl, so the individual waveform
 - 28672 (7000): violet noise
 - 30720 (7800): grey noise
 
-#controllers
+# controllers
 
-##group 1: lfo + pwm settings
+## group 1: lfo + pwm settings
 
 - lfo speed: the speed of the voice lfos
 - lfo attack: the attack time of the voice lfos
@@ -41,7 +41,7 @@ note that the waveforms are controlled by a multictl, so the individual waveform
 - pwm amount: the amount of pulsewidth modulation of the pulse waveform
 - pwm lfo/env mix: the mixture between the lfo and envelope for the pwm
 
-##group 2: oscillator settings
+## group 2: oscillator settings
 
 - osc 1 range: the octave offset of oscillator 1. 8192 (2000) = +0 octaves
 - osc 1 waveform: the waveform for oscillator 1
@@ -50,7 +50,7 @@ note that the waveforms are controlled by a multictl, so the individual waveform
 - osc 2 waveform: the waveform for oscillator 2
 - osc mix: the mixture of oscillators 1 and 2. 16384 (4000) = 50% osc 1 50% osc 2
 
-##group 3: filter settings
+## group 3: filter settings
 
 - hp cutoff: the exponential frequency of the 12db highpass filter
 - lp cutoff: the exponential frequency of the lowpass filter at the maximum velocity
@@ -59,7 +59,7 @@ note that the waveforms are controlled by a multictl, so the individual waveform
 - lp env amount: the amount of the envelope on the filter frequency
 - lp lfo amount: the amount of the lfo on the filter frequency
 
-##group 4: envelope settings
+## group 4: envelope settings
 
 - amp gate mode: enables gate mode for the envelope. this enables sustain on note on and off on note off, with no attack or release
 - attack: the attack of the envelope
@@ -67,7 +67,7 @@ note that the waveforms are controlled by a multictl, so the individual waveform
 - sustain level: the sustain level of the main envelope
 - release: the release of the envelope
 
-##group 5: effect settings
+## group 5: effect settings
 
 - chorus wet: the amount (wet) of the chorus effect. 16384 (4000) = -6db
 - chorus mix: the mixture between choruses 1 and 2

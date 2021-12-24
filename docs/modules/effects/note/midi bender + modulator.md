@@ -1,20 +1,20 @@
-#abstract
+# abstract
 
 this module allows you to perform pitch bend and pitch modulation effects on notes. not only that, but the two controllers are by default mapped to the midi pitch bend and modulation ccs, so they should work with any midi keyboard
 
-#controllers
+# controllers
 
-##group 1: core effects
+## group 1: core effects
 
 - pitch bend: bends the pitch of the note up or down by the specified scale
 - pitch mod: modulates the pitch of the note up and down by the specified scale
 
-##group 2: pitch bend settings
+## group 2: pitch bend settings
 
 - pitch bend response: the response of the pitch bending. 1000 (8000) is instantaneous response
 - pitch bend scale: the scaling of the pitch bend in percentage. 4% = +-2 semitones
 
-##group 3: pitch mod settings
+## group 3: pitch mod settings
 
 - pitch mod response: the response of the pitch modulation. 1000 (8000) is instantaneous response
 - pitch mod scale: the scaling of the pitch modulation in percentage. 4% = +-2 semitones

@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 an attempt to simulate the sound of chanting choirs, with a synthetic twist
 
@@ -6,29 +6,29 @@ uses a random envelope on the vocal filter vowel, as well as random consonants (
 
 also comes with a built-in hall reverb unit
 
-#controllers
+# controllers
 
-##group 1: vocal filter settings
+## group 1: vocal filter settings
 
 - voice type: the type of voice for the vocal filter
 - formants: the number of formants in the vocal filter
 
-##group 2: additional vocal settings
+## group 2: additional vocal settings
 
 - consonant volume: the maximum volume of the consonants in terms of the peak level. 16384 (4000) = -6db
 - vowel shift speed: the speed of the random vowel shift in milliseconds
 
-##group 3: envelope settings
+## group 3: envelope settings
 
 - attack: the attack of the amplitude envelope
 - release: the release of the amplitude envelope
 - sustain: enables the sustain of the amplitude envelope
 
-##group 4: physical settings
+## group 4: physical settings
 
 - voice seed: sets the random seed for the voice resonator
 
-##group 5: hall reverb settings
+## group 5: hall reverb settings
 
 - hall reverb wet: the volume of the reverb (wet) signal. 128 (4000) = -6db
 - hall reverb feedback: the feedback of the reverb

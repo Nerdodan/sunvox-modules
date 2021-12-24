@@ -1,17 +1,17 @@
-#abstract
+# abstract
 
 this module was requested by neurononeuro. it is essentially an extended version of the default loop module, where the looping is gated by the note input
 
 reset the loop by sending a note signal to this module
 
-#controllers
+# controllers
 
-##group 1: dry/wet settings
+## group 1: dry/wet settings
 
 - dry: the gain of the dry signal, 128 (1000) = -6db
 - wet: the gain of the wet signal, 128 (1000) = -6db
 
-##group 2: main settings
+## group 2: main settings
 
 - delay: the retrigger length of the loop in tracker lines
 - channels: the channels of the loop

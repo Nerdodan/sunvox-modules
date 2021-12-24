@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 this module allows you to enable various effects using the keyboard keys. the module does nothing until you input a note
 
@@ -29,9 +29,9 @@ this module's inner workings are laid out so you can exchange effect orders or a
 
 note that the modulator, tape stop, retrigger, reverse, and stretch reset when consecutive notes are received
 
-#controllers
+# controllers
 
-##group 1: modulator settings
+## group 1: modulator settings
 
 - modulator freq: the frequency of the modulator lfo
 - modulator volume: the volume of the modulator lfo. 256 (8000) is maximum lfo effect
@@ -39,27 +39,27 @@ note that the modulator, tape stop, retrigger, reverse, and stretch reset when c
 - modulator frequency unit: the frequency unit of the modulator lfo
 - modulation type: the type of modulation to apply to the signal
 
-##group 2: tape stop settings
+## group 2: tape stop settings
 
 - tape stop speed: the speed of the tape stop in milliseconds
 
-##group 3: retrigger settings
+## group 3: retrigger settings
 
 - retrigger delay: the delay length of the retrigger in tracker lines
 - retrigger repeats: the number of repeats of the retrigger
 - retrigger mode: the mode for the retrigger
 
-##group 4: reverse
+## group 4: reverse
 
 - reverse unit: the unit for the reverse lfo. a musical value is probably what you want
 - reverse speed: the speed of the reverse lfo in percentage
 
-##group 5: stretch
+## group 5: stretch
 
 - stretch unit: the unit for the stretch lfo. a musical value is probably what you want
 - stretch speed: the speed of the stretch lfo in percentage
 
-##group 6: distortion
+## group 6: distortion
 
 - distortion type: the type of distortion
 - distortion power: the power (gain) of the distortion
@@ -67,7 +67,7 @@ note that the modulator, tape stop, retrigger, reverse, and stretch reset when c
 - distortion freq: the sample rate of the distorted signal in hertz
 - distortion noise: the noise of the distorted signal. note that this is not the same as adding white noise, this effect adds a random value to each sample
 
-##group 7: reverb
+## group 7: reverb
 
 - reverb wet: the gain of the wet reverb signal. 32768 (8000) = 0db
 - reverb dry: the gain of the dry reverb signal. 32768 (8000) = 0db
@@ -75,7 +75,7 @@ note that the modulator, tape stop, retrigger, reverse, and stretch reset when c
 - reverb damp: the dampening (lowpass filter) of the reverb
 - reverb size: the size of the reverb
 
-##group 8: compressor
+## group 8: compressor
 
 - compressor threshold: the threshold of the compressor in terms of the peak value. 128 (2000) = -6db
 - compressor slope: the slope (ratio) of the compressor curve in percentage. 50 (2000) = 1:2

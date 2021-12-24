@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 a module that synthesizes the hard distorted kick drums heard in electronic genres like hardstyle, hardcore and speedcore
 
@@ -16,9 +16,9 @@ the equalization is based on the default eq module
 
 the compression is based on my compressor pro module. note that the slope is fixed to 100 (1:infinity)
 
-#controllers
+# controllers
 
-##group 1: built-in kick drum controls
+## group 1: built-in kick drum controls
 
 - body base freq: the base frequency of the body in semitones. 0 (80) = c5
 - body attack: the attack of the body. you'll want to have this at around 50-70 to make room for the transient
@@ -44,33 +44,33 @@ the compression is based on my compressor pro module. note that the slope is fix
 - release: the release of the compressor in milliseconds
 - makeup gain: the makeup gain of the compressor in terms of the peak value. 32768 (8000) = +32db 
 
-##group 2: initial highpass + saturation controls
+## group 2: initial highpass + saturation controls
 
 - init highpass freq: the frequency of the highpass filter in hertz
 - init highpass q: the resonance of the highpass filter
 - init highpass rolloff: the roll-off of the highpass flter in db/oct
 - init saturation: the input gain to the initial saturator. note that 0 = silence
 
-##group 3: voice controls
+## group 3: voice controls
 
 - voice freq: the frequency of the bandpass filter in hertz. this only affects the sound if the "voice follows note pitch" controller is off
 - voice q: the resonance of the bandpass filter
 - voice rolloff: the roll-off of the bandpass filter in db/oct
 - voice sat: the input gain to the voice saturator. note that 0 = silence
 
-##group 4: distortion effects
+## group 4: distortion effects
 
 - bit depth: the bit depth of the distorted signal. 16 (10) = no change to the bit depth
 - freq: the sample rate of the distorted signal in hertz
 - noise: the noise of the distorted signal, note that this is not the same as adding white noise, this effect adds a random value to each sample
 
-##group 5: voice keytrack settings
+## group 5: voice keytrack settings
 
 - voice follows note pitch: enables keytracking for the voice
 - voice pitch transpose: the transposition of the keytracking in semitones. 0 (80) = base pitch
 - voice pitch finetune: the finetuning of the keytracking in semitones/256
 - voice random pitch: the amount of random pitch to apply to the keytracking in semitones/256
 
-##group 6: mix settings
+## group 6: mix settings
 
 - mix: the mix of the kick drum and distorted kick drum. note that 8192 (2000) = 100% dry, 50% wet and vice versa

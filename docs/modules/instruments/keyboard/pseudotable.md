@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 a monophonic pseudo-wavetable oscillator with a sine wave rm/pm modulator, in the style of native instruments's massive
 
@@ -8,20 +8,20 @@ as of now, you'll have to go inside the metamodules to edit the waveforms, but t
 
 the wavetable function is simply a crossfader between the two waveforms
 
-#controllers
+# controllers
 
 ##group 1: wavetable controls
 
 - wave mix: the crossfade between the two waveforms
 
-##group 2: modulator controls
+## group 2: modulator controls
 
 - mod osc transpose: the transposition of the modulator from the input pitch in semitones
 - mod osc finetune: the transposition of the modulator from the input pitch in semitones/256
 - pm amount: the amount of phase modulation on the wavetable
 - rm amount: the amount of ring modulation on the wavetable
 
-##group 3: envelope main controls
+## group 3: envelope main controls
 
 - attack: the attack of the amplitude envelope in milliseconds
 - decay: the decay of the amplitude envelope in milliseconds
@@ -29,12 +29,12 @@ the wavetable function is simply a crossfader between the two waveforms
 - sustain level: the sustain level of the amplitude envelope
 - release: the release of the amplitude envelope in milliseconds
 
-##group 4: envelope curve controls
+## group 4: envelope curve controls
 
 - attack curve: the curve shape for the attack stage of the amp envelope
 - decay curve: the curve shape for the decay stage of the amp envelope
 - release curve: the curve shape for the release stage of the amp envelope
 
-##group 5: envelope other controls
+## group 5: envelope other controls
 
 - sustain pedal: enables the sustain pedal of the amp envelope

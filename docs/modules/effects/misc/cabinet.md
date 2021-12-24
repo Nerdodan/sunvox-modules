@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 this is a guitar cabinet effect
 
@@ -10,25 +10,25 @@ note that the room reverb is not meant to simulate an amplifier's reverb knob, b
 
 this module uses two mono reverb modules on each channel to negate weird stereo effects
 
-#controllers
+# controllers
 
-##group 1: dry/wet controls
+## group 1: dry/wet controls
 
 - dry: the dry amount of fine details (low size reverb) in the signal. 32768 (8000) = 0db
 - wet: the wet amount of fine details (low size reverb) in the signal. 32768 (8000) = 0db
 
-##group 2: cabinet controls
+## group 2: cabinet controls
 
 - cabinet seed: the random seed for the fine details (low size reverb)
 
-##group 3: shape controls
+## group 3: shape controls
 
 - bass: the gain of the bass peak. has a range of -24 <-> +24 db. this is set to 80 hertz
 - mid: the gain of the mid peak. has a range of -24 <-> +24 db. this is set to 814 hertz. note that by default the gain is all the way down because i think it sounds better
 - treble: the gain of the treble peak. has a range of -24 <-> +24 db. this is set to 2589 hertz
 - presence: the gain of the presence peak. has a range of -24 <-> +24 db. this is set to 13700 hertz
 
-##group 4: room reverb controls
+## group 4: room reverb controls
 
 - room wet: the amount of wet signal. 256 (8000) = 0db
 - room feedback: the feedback of the room reverb

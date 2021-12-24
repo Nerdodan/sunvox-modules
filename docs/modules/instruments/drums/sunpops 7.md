@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 a sunvox clone of the korg minipops 7 drum machine, famously used by jean-michel jarre and others
 
@@ -23,20 +23,20 @@ i did a lot of research and tried to replicate the original machine's behavior, 
 
 use this for recreating those classic 70's synth rhythms. this also works well as a quick way to get nice foley loops. the special thing about this is that while the original synth was basically a black box, this metamodule allows you to go inside and modify the sequences and instruments.
 
-#controllers
+# controllers
 
-##group 1: instrument volume settings
+## group 1: instrument volume settings
 
 - quijada: the volume of the quijada instrument in terms of the peak level. 16384 (4000) = -6db
 - guiro: the volume of the guiro instrument in terms of the peak level. 16384 (4000) = -6db
 - tambourine: the volume of the tambourine instrument in terms of the peak level. 16384 (4000) = -6db
 
-##group 2: main settings
+## group 2: main settings
 
 - volume: the overall volume in terms of the peak level. 16384 (4000) = -6db
 - balance: the volume of the cymbals in terms of the peak level. 16384 (4000) = -6db
 - tempo: the tempo of the machine. ranges linearly from 32 bpm to 256 bpm
 
-##group 3: rhythm section settings
+## group 3: rhythm section settings
 
 - rhythm section switch: enables the second set of patterns. the pattern will not switch until the current set of measures in the pattern is complete

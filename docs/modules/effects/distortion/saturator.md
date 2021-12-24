@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 a simple saturator
 
@@ -10,9 +10,9 @@ the functionality of this module is built into my bus pro module
 
 the waveshaper curves were generated using pixilang, i'll see if i can find the original file
 
-#controllers
+# controllers
 
-##group 0: controls
+## group 1: controls
 
 - input gain: the input gain of the signal in terms of the peak value. 256 (2000) = 0db
 - odd/even harmonics: the mix of the symmetrical/asymmetrical saturators

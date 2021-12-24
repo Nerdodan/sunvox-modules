@@ -1,40 +1,40 @@
-#abstract
+# abstract
 
 this is a module that contains volume, balance, and stereo width control, as well as haas delay, saturation, and compression. as the name implies, it is intended to be used for bus/mix processing
 
 the waveshaper curves were generated using pixilang, i'll see if i can find the original file
 
-#controllers
+# controllers
 
-##group 1: main processing
+## group 1: main processing
 
 - volume: the volume of the signal in terms of the peak level. 16384 (4000) = -6db
 - balance: the stereo balance of the signal
 - position: the haas delay of the signal. moving the value left or right from the center will make the audio appear to come from the left or right less artificially than standard panning. 16384 (4000) = no delay
 - stereo width: the stereo width of the signal
 
-##group 2: highpass filter
+## group 2: highpass filter
 
 - hp freq: the frequency of the highpass filter in hertz
 - hp q: the resonance of the highpass filter
 - hp roll-off: the roll-off of the highpass filter in db/oct
 - hp mix: the dry/wet mixture of the highpass filter. 16384 (4000) = 50% dry 50% wet
 
-##group 2: lowpass filter
+## group 2: lowpass filter
 
 - lp freq: the frequency of the lowpass filter in hertz
 - lp q: the resonance of the lowpass filter
 - lp roll-off: the roll-off of the lowpass filter in db/oct
 - lp mix: the dry/wet mixture of the lowpass filter. 16384 (4000) = 50% dry 50% wet
 
-##group 3: saturation
+## group 3: saturation
 
 - saturator input gain: the input gain of the signal in terms of the peak value. 256 (2000) = 0db
 - saturator odd/even harmonics: the mix of the symmetrical/asymmetrical saturators
 - saturator character: the curve shape of the saturator
 - saturator mix: the dry/wet mix of the saturation. 16384 (4000) = 50% dry 50% wet
 
-##group 4: compression
+## group 4: compression
 
 - compressor input gain: the input gain of the signal. 256 (2000) = 0db
 - compressor lookahead: the lookahead time in milliseconds

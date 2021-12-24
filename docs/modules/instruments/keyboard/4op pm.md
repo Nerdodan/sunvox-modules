@@ -1,4 +1,4 @@
-#abstract
+# abstract
 
 a monophonic phase modulation synthesizer module inspired by native instruments's fm8 plugin
 
@@ -21,37 +21,37 @@ the envelope algorithm is as follows, with controller values in decimal and hexa
 - 28672 (7000): 0 attack, 0 release, sustain off
 - 32768 (8000): 256 attack, 256 release, sustain off
 
-#controllers
+# controllers
 
-##group 1: op 1 settings
+## group 1: op 1 settings
 
 - op 1 coarse: the coarse detuning from the input pitch for this operator, in semitones
 - op 1 fine: the fine detuning from the input pitch for this operator, in semitones/256
 - op 1 envelope: the envelope for operator 1
 - op 1 waveform: the waveform for operator 1
 
-##group 2: op 2 settings
+## group 2: op 2 settings
 
 - op 2 coarse: the coarse detuning from the input pitch for this operator, in semitones
 - op 2 fine: the fine detuning from the input pitch for this operator, in semitones/256
 - op 2 envelope: the envelope for operator 2
 - op 2 waveform: the waveform for operator 2
 
-##group 3: op 3 settings
+## group 3: op 3 settings
 
 - op 3 coarse: the coarse detuning from the input pitch for this operator, in semitones
 - op 3 fine: the fine detuning from the input pitch for this operator, in semitones/256
 - op 3 envelope: the envelope for operator 3
 - op 3 waveform: the waveform for operator 3
 
-##group 4: op 4 settings
+## group 4: op 4 settings
 
 - op 4 coarse: the coarse detuning from the input pitch for this operator, in semitones
 - op 4 fine: the fine detuning from the input pitch for this operator, in semitones/256
 - op 4 envelope: the envelope for operator 4
 - op 4 waveform: the waveform for operator 4
 
-##group 5: mod matrix
+## group 5: mod matrix
 
 - 4 -> 3 amt: the amount of modulation between operators 4 and 3
 - 4 -> 2 amt: the amount of modulation between operators 4 and 2
@@ -60,7 +60,7 @@ the envelope algorithm is as follows, with controller values in decimal and hexa
 - 3 -> 1 amt: the amount of modulation between operators 3 and 1
 - 2 -> 1 amt: the amount of modulation between operators 2 and 1
 
-##group 6: operator output
+## group 6: operator output
 
 - op 1 out: the output of operator 1 in terms of the peak value. 16384 (4000) = 6db
 - op 2 out: the output of operator 2 in terms of the peak value. 16384 (4000) = 6db

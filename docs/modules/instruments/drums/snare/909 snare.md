@@ -1,12 +1,12 @@
-#abstract
+# abstract
 
 a simple clone of the snare drum from the roland tr-909. it works simply by mixing a tone with a pitch envelope and sampled noise
 
 for an updated and more generalized version of this module, please see my analog snare module
 
-#controllers
+# controllers
 
-##group 1: body controls
+## group 1: body controls
 
 - body max tone: the tone of the body at the pitch envelope's maximum amplitude
 - body min tone: the tone of the body at the pitch envelope's minimum amplitude
@@ -14,7 +14,7 @@ for an updated and more generalized version of this module, please see my analog
 - body release: the release time of the body
 - body volume: the volume of the body in terms of the peak level. 128 = -6db
 
-##group 2: tail controls
+## group 2: tail controls
 
 - tail tone: the pitch of the sampled noise. 16384 (4000) = c5. lower values give a sample rate reduction effect
 - tail phase: the phase (playback position) of the sampled noise
