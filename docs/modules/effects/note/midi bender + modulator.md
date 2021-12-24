@@ -23,6 +23,6 @@ this module allows you to perform pitch bend and pitch modulation effects on not
 - pitch mod lfo unit: the frequency unit for the lfo
 - pitch mod lfo duty cycle: the pulsewidth (duty cycle) of the pulse wave lfo
 
-##group 4: sound2ctl sample rate settings
+## group 4: sound2ctl sample rate settings
 
 - lfo sample rate: the sample rate of the sound2ctl module in hertz. requested by nightradio. increasing this increases the granularity at the cost of processing power. according to nr, 150 hz is the sweet spot
