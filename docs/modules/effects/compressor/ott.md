@@ -2,7 +2,7 @@
 
 a clone of the ott preset from ableton live's multiband dynamics effect, widely used in electronic dance music and made into a plugin by xfer records
 
-it works by splitting the audio into three bands, applying upwards and downwards compression to each band, and summing the bands together with optional equalization
+it works by splitting the audio into three bands, applying heavy upwards and downwards compression to each band, and summing the bands together with optional equalization
 
 use it to make your basses (or anything really) more biting and squashed
 
@@ -25,7 +25,7 @@ note that this does not use inversion-based splitting, true to the original effe
 - m threshold: the threshold of the mid compressor pair. 16384 (4000) = -30.2db downward, -41.8db upward
 - l threshold: the threshold of the low compressor pair. 16384 (4000) = -33.8db downward, -40.8db upward
 
-## group 3: equalization
+## group 3: equalization controls
 
 - h: gain of the high band. 256 (2000) = 0db
 - m: gain of the mid band. 256 (2000) = 0db
