@@ -2,8 +2,6 @@
 
 a wah-wah effect. the effect can be controlled in three ways: auto (following the signal amplitude), manually (adjusting the manual frequency), or by lfo
 
-~~it's the ultimate porno music machine~~
-
 # controllers
 
 ## group 1: dry/wet settings
