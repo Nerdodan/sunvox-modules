@@ -26,7 +26,7 @@ the filter curves were generated using pixilang. the original functions are as f
 //$y = (2 * $x) - 1
 
 //z lp
-//$y = (1 - ($x)) + 1
+//$y = (1 - (4 * $x)) + 1
 
 //z bp
 //$y = (1 - abs(1 - (2 * $x))) * 2
