@@ -21,6 +21,8 @@ the envelope algorithm is as follows, with controller values in decimal and hexa
 - 28672 (7000): 0 attack, 0 release, sustain off
 - 32768 (8000): 256 attack, 256 release, sustain off
 
+this module has been rendered obsolete by my mod8 module
+
 # controllers
 
 ## group 1: op 1 settings
