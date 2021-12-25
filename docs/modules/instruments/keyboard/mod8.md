@@ -8,7 +8,7 @@ due to the 96 controller limit (which is hopefully lifted soon), some controls a
 
 capable of producing many fm and rm sounds, as well as crazy hybrids of the two
 
-note that this module is velocity-responsive, and the volumes of the routings will change with lower velocities
+note that this module is velocity-responsive, and the volumes of the routings + op z's cutoff will change with lower velocities
 
 also note that due to the keytracking and operator gain algorithm, bass notes' modulation will be distorted if the modulation amounts are too high. this can be desirable in some cases
 
@@ -26,13 +26,13 @@ the filter curves were generated using pixilang. the original functions are as f
 //$y = (2 * $x) - 1
 
 //z lp
-//$y = 1 - (2 * $x)
+//$y = (1 - ($x)) + 1
 
 //z bp
-//$y = 1 - abs(1 - (2 * $x))
+//$y = (1 - abs(1 - (2 * $x))) * 2
 
 //z hp
-//$y = (2 * $x) - 1
+//$y = (4 * $x) - 2
 ```
 
 # controllers
