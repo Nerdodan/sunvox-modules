@@ -4,14 +4,14 @@ this module allows you to enable various effects using the keyboard keys. the mo
 
 the effects are as follows, starting on note c0:
 
-c0: modulator
-c#0: tape stop
-d0: retrigger (loop)
-d#0: reverse
-e0: stretch
-f0: distortion
-f#0: reverb
-g0: compressor
+- c0: modulator
+- c#0: tape stop
+- d0: retrigger (loop)
+- d#0: reverse
+- e0: stretch
+- f0: distortion
+- f#0: reverb
+- g0: compressor
 
 the effects loop around on note g#0 and so on
 
