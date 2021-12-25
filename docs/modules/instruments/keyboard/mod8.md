@@ -18,22 +18,22 @@ the saturation is based on my saturator module
 
 the filter curves were generated using pixilang. the original functions are as follows:
 
-`
-//x lp
-//$y = 2 * $x
 
-//x hp
-//$y = (2 * $x) - 1
+  //x lp
+  //$y = 2 * $x
 
-//z lp
-//$y = 1 - (2 * $x)
+  //x hp
+  //$y = (2 * $x) - 1
 
-//z bp
-//$y = 1 - abs(1 - (2 * $x))
+  //z lp
+  //$y = 1 - (2 * $x)
 
-//z hp
-//$y = (2 * $x) - 1
-`
+  //z bp
+  //$y = 1 - abs(1 - (2 * $x))
+
+  //z hp
+  //$y = (2 * $x) - 1
+
 
 # controllers
 
