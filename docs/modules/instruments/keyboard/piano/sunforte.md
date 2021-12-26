@@ -6,13 +6,15 @@ it works via hybrid subtractive/physical modelling synthesis, where for each voi
 
 each voice is then sent to a set of soundboard and body resonators, then a high shelf and high pass filter for sound adjustment
 
-the module has eight voices of polyphony and uses cyclic round-robin voice allocation
+the module has ten voices of polyphony and uses cyclic round-robin voice allocation
 
 the module responds to velocity, so lower velocities mean less harmonics
 
 the module sounds great with some reverb, preferably my reverb pro module
 
 the module was called "sunforte" in reference to the piano's original name, the pianoforte, though perhaps just "piano" would be clearer
+
+
 
 # controllers
 
