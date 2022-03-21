@@ -4,13 +4,11 @@ a monophonic six-operator phase modulation/ring modulation synth inspired by nat
 
 it features six main operators, each with adjustable coarse and fine detuning, waveform selection, and a repeatable adsr envelope. they can be routed to each other in a true-keytracked matrix-style router. this module also features two effect operators, x and z. x adds enveloped sampled noise and saturation, and z adds an enveloped filter. all of the operators can then be routed directly to the output
 
-due to the 96 controller limit (which is hopefully lifted soon), some controls are limited. currently, using the controllers, only operator f can be routed to operators x and z. also, the ring modulation can only be triggered for all the connections at once. internally, the synth is capable of routing operators a - e to x and z, as well as making every individual connection either pm or rm; you simply need to flip the labelled amplifier switches and increase the routing volumes inside the module. also inside the module, other settings such as envelope curve types and operator feedback can be changed
+due to the 96 controller limit (which is hopefully lifted soon), some controls are limited. currently, using the controllers, only operator f can be routed to operators x and z. also, the ring modulation can only be triggered for all the connections at once. internally, the synth is capable of routing operators a - e to x and z, as well as making every individual connection different modulation types; you simply need to change the fmx module settings. also inside the module, other settings such as envelope curve types and operator feedback can be changed
 
 capable of producing many fm and rm sounds, as well as crazy hybrids of the two
 
 note that this module is velocity-responsive, and the volumes of the routings + op z's cutoff will change with lower velocities
-
-also note that due to the keytracking and operator gain algorithm, bass notes' modulation will be distorted if the modulation amounts are too high. this can be desirable in some cases
 
 this succeeds my old 4op pm module
 
@@ -167,4 +165,4 @@ the filter curves were generated using pixilang. the original functions are as f
 
 ## group 12: modulation settings
 
-- all rm mode: enables ring modulation mode for all routings.
+- velocity sensitivity: increases the amount of velocity sensitivity for the operators.
